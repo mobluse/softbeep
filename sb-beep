@@ -1,11 +1,11 @@
 #!/bin/sh
 
-FILE=/usr/share/sounds/warning.wav
+FILE=/usr/share/python_games/badswap.wav # WAS: warning.wav
 
 echo "$@" >> /tmp/sb-beep
 
-if [ "$1" == "irssi" ] || [ "$1" == "xchat" ] ; then
-	FILE=/usr/share/sounds/email.wav
+if [ "$1" = "irssi" ] || [ "$1" = "xchat" ] ; then
+	FILE=/usr/share/python_games/badswap.wav # WAS: email.wav
 fi
 
-exec esdplay $FILE
+exec aplay -q $FILE &

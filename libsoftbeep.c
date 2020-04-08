@@ -35,6 +35,8 @@
 
 #include <X11/Xlib.h>
 
+typedef struct FILE _IO_FILE;
+
 /* BSDI has this functionality, but not define :() */
 #if defined(RTLD_NEXT)
 #define REAL_LIBC RTLD_NEXT
