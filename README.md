@@ -8,8 +8,9 @@ https://raspberrypi.stackexchange.com/questions/8927/enabling-audible-terminal-b
 http://0pointer.de/lennart/projects/softbeep/  
 https://github.com/aur-archive/softbeep  
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 softbeep 0.3 - Software Bell for Linux
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+======================================
 
 Copyright 2002
 Lennart Poettering <mz736f667462656570@poettering.de>
