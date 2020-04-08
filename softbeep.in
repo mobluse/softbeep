@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Shall the \a be removed from the written data
+SB_REMOVE_BEL=yes
+export SB_REMOVE_BEL
+
+# What program shall be run
+SB_RUN="sb-beep"
+export SB_RUN
+
+# Enable the preloading
+LD_PRELOAD=__PREFIX__/lib/libsoftbeep.so
+export LD_PRELOAD
+
+# Run the program
+if [ $# != 0 ] ; then 
+	exec "$@"
+else
+	echo "Spawning subshell."
+	exec $SHELL
+fi

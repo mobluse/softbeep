@@ -1,0 +1,17 @@
+0.3 Bugfix
+	
+	Previous versions did not allow entering C-g in programs using
+	pseudo terminals like gnome-terminal. This is now fixed.
+
+0.2 Bugfixes+New Features
+    
+    1. softbeep script fixed, didn't export environment variables
+       correctly
+
+	2. Program name is passed to sound player. This allows individual
+       beeps for different programs.
+
+	3. esdplay is no longer called directly, a short script wraps it
+       and distuingishes between irssi/xchat and other programs.
+
+0.1 Initial Relese

@@ -1,0 +1,12 @@
+o Multithreaded processes may not work. Not tested. May work. May not
+  work.
+
+o Processes with several different open ptys may not be wrapped
+  correctly. (Escape-Sequences are not captured correcly)
+
+o SUID/SGID processes are ignored. This is not a bug, it's a
+  feature. Because of security considerations the Linux dynamic loader
+  ignores LD_PRELOAD on SUID/SGID executables.
+
+  This includes xterm. (But may be ignored since all you need to do to
+  catch all beeps is to preload the library for the shell in the xterm)
