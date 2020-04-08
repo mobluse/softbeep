@@ -1,3 +1,13 @@
+# softbeep 0.3 - Software Bell for Linux
+
+Original README below. I didn't orginally develop this system. I only fixed so that it could compile in Raspbian Buster Linux (based on Debian)
+and improved the shell scripts using inspiration from others. I put it here, because it was not already on GitHub.
+
+https://raspberrypi.stackexchange.com/questions/107403/i-dont-get-a-system-bell-in-lxterminal-on-raspberry-pi-4b-raspbian  
+https://raspberrypi.stackexchange.com/questions/8927/enabling-audible-terminal-bell-beep-on-wheezy  
+http://0pointer.de/lennart/projects/softbeep/  
+https://github.com/aur-archive/softbeep  
+
 softbeep 0.3 - Software Bell for Linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
